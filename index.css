@@ -1,0 +1,222 @@
+ * {
+     box-sizing: border-box;
+     /*邊框不列入寬度預算*/
+ }
+
+ body {
+     margin: 0;
+     background-color: #ffe963;
+ }
+
+
+ .container {
+     padding-right: 15px;
+     padding-left: 15px;
+     margin-right: auto;
+     margin-left: auto;
+     background-color: #ffe963;
+     padding-bottom: 48px;
+ }
+
+ .header {
+    padding-right: 20px;
+    color: #2CBF37;
+    background-color: #ffe963;
+    height: 100px;
+
+ }
+
+ .teacup-logo {
+     width: 60px;
+     margin-right: 12px;
+ }
+
+ .brand-logo {
+     width: 148px;
+ }
+
+ .form-group {
+     margin-bottom: 15px
+ }
+
+ .topnav {
+     background-color: #ffe963;
+     overflow: hidden;
+ }
+
+ .topnav a {
+     float: left;
+     color: #5c4c45;
+     text-align: left;
+     padding: 14px 16px;
+     text-decoration: underline;
+     font-family: 'Nunito', sans-serif;
+     font-size: 15px;
+     font-weight: 700;
+     letter-spacing: 1px;
+     padding: 0px 20px;
+ }
+
+ .topnav a:hover {
+     color: white;
+     text-decoration: underline;
+ }
+
+ .image01 {
+     max-width: 20%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 100px auto 20px;
+ }
+
+ .image02 {
+     max-width: 80%;
+     margin: 0 auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .open {
+     margin: 0px 35.425px;
+     padding: 0px 0px 32px;
+     width: 753px;
+     max-width: 90%;
+     margin: 0 auto;
+     vertical-align: middle;
+     box-sizing: border-box;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .section01 {
+     font-family: "FOT-スーラ Pro M", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro";
+     background-color: #ffe963;
+     color: #5c4c45;
+     letter-spacing: 0.1em;
+ }
+
+ @media (max-width: 767px) {
+     .left {
+         background-color: #ffffff;
+         border-radius: 10px;
+         padding: 30px 20px 0px;
+         position: relative;
+         text-align: center;
+         height: 700px;
+     }
+ }
+
+.cafe {
+        background-color: #fce254;
+        color: #5C4C45;
+        padding: 10px 20px;
+        margin: 0px 0px 10px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 24px;
+        letter-spacing: 2px;
+        font-weight: 700;
+        border-radius: 30px;
+        display: inline-block;
+    }
+
+    .span01 {
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        color: #5C4C45;
+        text-align: center;
+        margin: 0px 0px 10px;
+        padding: 16px 0px 0px;
+        letter-spacing: 0.1px;
+        font-size: 18px;
+    }
+
+    .span02 {
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        color: #5C4C45;
+        text-align: center;
+        margin: 0px 0px 10px;
+        padding: 16px 0px 0px;
+        letter-spacing: 0.1px;
+        font-size: 30px;
+    }
+
+    .span03 {
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        color: #5C4C45;
+        text-align: center;
+        margin: 0px 0px 10px;
+        padding: 10px 0px 0px;
+        letter-spacing: 0.1px;
+        line-height: 22px;
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    .divspan01 {
+        padding: 16px 0px 26px;
+        box-sizing: border-box;
+        text-align: center;
+        margin: 0px auto;
+    }
+
+    @media (max-width: 767px) {
+        .divspan02 {
+            width: 90%;
+            margin: 15px 35px 0px;
+            padding: 20px;
+            background-color: rgb(249, 249, 249);
+            border-radius: 10px;
+            text-align: left;
+            border-radius: 10px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+    }
+
+    .span04 {
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        color: #5C4C45;
+        margin: 0px 0px 10px;
+        padding: 15px 0px 0px;
+        letter-spacing: 0.1px;
+        line-height: 22px;
+        font-size: 15px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .span05 {
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        color: #5C4C45;
+        font-size: 13.5px;
+        line-height: 22px;
+        text-align: left;
+        padding: 20px;
+    }
+
+    .button {
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        border: 0;
+        border-radius: 5px;
+        background-color: #5C4C45;
+        text-decoration: none;
+        color: #FFFFFF;
+        padding: 15px 30px;
+        font-size: 1.2em;
+        letter-spacing: 0.1px;
+        display: inline-block;
+    }
+
+    .button:hover {
+        background-color: #6b5d56;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+ @media only screen and (max-width: 480px) {
+     .div_size {
+         width: 100%
+     }
+ }

@@ -1,0 +1,92 @@
+.body{
+    margin: 0px auto;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color: #ffe963;
+    color: #5C4C45;
+}
+
+
+ .container {
+     padding-right: 15px;
+     padding-left: 15px;
+     margin-right: auto;
+     margin-left: auto;
+     background-color: #ffe963;
+     padding-bottom: 48px;
+ }
+
+ .header {
+    padding-right: 20px;
+    color: #2CBF37;
+    background-color: #ffe963;
+    height: 100px;
+
+ }
+
+ .teacup-logo {
+     width: 60px;
+     margin-right: 12px;
+ }
+
+ .brand-logo {
+     width: 148px;
+ }
+
+ .form-group {
+     margin-bottom: 15px
+ }
+
+ .topnav {
+     background-color: #ffe963;
+     overflow: hidden;
+ }
+
+ .topnav a {
+     float: left;
+     color: #5c4c45;
+     text-align: left;
+     padding: 14px 16px;
+     text-decoration: underline;
+     font-family: 'Nunito', sans-serif;
+     font-size: 15px;
+     font-weight: 700;
+     letter-spacing: 1px;
+     padding: 0px 20px;
+ }
+
+ .topnav a:hover {
+     color: white;
+     text-decoration: underline;
+ }
+
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.modal {
+    
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #5C4C45;
+}
